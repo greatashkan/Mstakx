@@ -96,9 +96,6 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 ## Join the other nodes to the master:
 Install Docker and Kubernetes on this node. And paste the join command 
-```
-
-```
 
 
 Now the state of the nodes is "not ready". You have to apply CNI configurations to k8s:
