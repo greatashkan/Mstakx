@@ -127,7 +127,9 @@ https://kubernetes.io/docs/tutorials/stateless-application/guestbook/
 
 Create namespaces before starting the deployments:
 ```
-kubectl create namespace
+kubectl create namespace staging
+
+kubectl create namespace production
 ```
 
 ### Create the Redis Master Deployment in both namespaces:
