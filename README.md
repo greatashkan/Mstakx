@@ -6,7 +6,7 @@ First you need to install Docker.
 Update the OS
 
 ```bash
-sudo apt-get update:
+sudo apt-get update
 ```
 Install packages to allow apt to use a repository over HTTPS:
 ```
