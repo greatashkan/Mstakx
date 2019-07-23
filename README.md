@@ -38,12 +38,8 @@ Enable Docker and do some configs for
 systemctl enable docker
 systemctl start docker
 ```
-Test it is working:
-```
-sudo docker run hello-world
-```
 
-#Kubernetes components install:
+# Kubernetes components install:
 
 Add the repo of K8S:
 ```
